@@ -1,0 +1,49 @@
+.taskItem li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    padding-left: 0.3rem;
+    background: var(--gray-800);
+    width: 44rem;
+    height: 4.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px;
+    position: relative;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    border: 1px solid var(--gray-300);
+}
+
+input[type="checkbox"]:checked {
+    background-color: var(--gray-200);
+    border-color: var(--gray-300);
+}
+
+.taskItem li span {
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color: var(--gray-300);
+    margin-left: 0.6rem;
+}
+
+.taskItem button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--gray-200);
+    background: transparent;
+    border-radius: 8px;
+}

@@ -1,0 +1,43 @@
+.listTasks {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 46rem;
+    height: 100%;
+    margin-left: calc(50% - 736px/2);
+}
+
+.listTasks ul li {
+    list-style: none;
+}
+
+.listTasks :hover {
+    color: var(--gray-200);
+    background: var(--gray-700);
+}
+
+.empty {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 24px;
+    gap: 1rem;
+    border-top: 1px solid var(--gray-800);
+    width: 46rem;
+    margin-left: calc(50% - 736px/2);
+}
+
+.empty img {
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+.empty footer {
+    /* border: solid; */
+    color: var(--gray-500);
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.375rem;
+}
